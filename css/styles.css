@@ -1,5 +1,5 @@
 html {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 *, *:before, *:after {
@@ -26,7 +26,7 @@ img {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 }
 
@@ -34,6 +34,7 @@ img {
 .name-site {
     margin-top: 5rem;
     text-align: center;
+    font-size: 2.5rem;
 }
 
 .name-site span {
@@ -41,11 +42,11 @@ img {
 }
 
 .container-nav {
-    border-top: .1rem solid #e1e1e1;
+    border-top: 0.0625rem solid #e1e1e1;
 }
 
 .nav-main {
-    padding: 2rem 0;
+    padding: 1.25rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +64,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 25rem;
+    height: 34.375rem;
 }
 
 .categories h2 {
@@ -73,18 +74,18 @@ img {
 .category a {
     display: block;
     text-align: center;
-    padding: 20px;
-    font-size: 20px;
+    padding: 1.25rem;
+    font-size: 1.25rem;
 }
 
 .category a:hover {
     background-color: #037bc0;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 0.625rem;
     color: #ffffff;
 }
 
 .category-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 1.25rem;
 }
