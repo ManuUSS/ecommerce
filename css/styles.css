@@ -104,3 +104,14 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
 }
+
+/* About us */
+.about-us {
+    background-image: linear-gradient( to right, transparent 50%, #037BC0 50%, #037BC0 100% ),
+    url("../images/nosotros.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 75rem;
+    background-position: left center;
+
+    padding: 6.25rem 0;
+}
