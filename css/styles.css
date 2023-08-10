@@ -78,6 +78,10 @@ img {
 }
 
 /* Categories */
+.categories {
+    padding-top: 3.125rem;
+}
+
 .categories h2 {
     text-align: center;
 }
