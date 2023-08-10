@@ -43,7 +43,7 @@ img {
 
 /* Header and navigation */
 .name-site {
-    margin-top: 5rem;
+    margin-top: 3.125rem;
     text-align: center;
 }
 
@@ -103,6 +103,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
+    margin-bottom: 3.125rem;
 }
 
 /* About us */
