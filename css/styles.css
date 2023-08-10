@@ -1,8 +1,36 @@
 
 
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
 
+img {
+    max-width: 100%;
+}
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.category a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.category a:hover {
+    background-color: #037bc0;
+    border-bottom-right-radius: 10px;
+    color: #ffffff;
+}
 
 .category-list {
     display: grid;
