@@ -40,6 +40,10 @@ img {
     margin: 0 auto;
 }
 
+/* Utilities */
+.text-center {
+    text-align: center;
+}
 
 /* Header and navigation */
 .name-site {
@@ -124,4 +128,40 @@ img {
 .about-us-text {
     flex-basis: 50%;
     padding-left: 5rem;
+    color: #ffffff;
+}
+
+/* Products list */
+.content-main {
+    padding-top: 3.125rem;
+}
+
+.products-list {
+
+}
+
+.product {
+    background-color: #037BC0;
+}
+
+.product-text {
+    text-align: center;
+    color: #ffffff;
+}
+
+.product-text h3 {
+    margin: 0;
+}
+
+.product-text p {
+    padding: 0 0 0.3125rem 0;
+}
+
+.product-text a {
+
+}
+
+.price {
+    font-size: 1.75rem;
+    font-weight: 900;
 }
