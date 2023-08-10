@@ -112,6 +112,15 @@ img {
     background-repeat: no-repeat;
     background-size: 100%, 75rem;
     background-position: left center;
-
     padding: 6.25rem 0;
+}
+
+.about-us-grid {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-us-text {
+    flex-basis: 50%;
+    padding-left: 5rem;
 }
