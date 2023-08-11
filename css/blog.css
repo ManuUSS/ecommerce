@@ -12,6 +12,11 @@
     gap: 2.5rem;
 }
 
+.content-entry-blog {
+    width: 37.5rem;
+    margin: 0 auto;
+}
+
 .entry {
     border-bottom: 2px solid #e1e1e1;
     padding-bottom: 2.5rem;
