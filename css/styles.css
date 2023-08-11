@@ -226,3 +226,12 @@ img {
     margin-top: 3.125rem;
     padding-top: 3.125rem;
 }
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-footer article {
+    flex: 1;
+}
