@@ -147,6 +147,7 @@ img {
 .product-text {
     text-align: center;
     color: #ffffff;
+    padding: 1.25rem;
 }
 
 .product-text h3 {
@@ -158,10 +159,24 @@ img {
 }
 
 .product-text a {
-
+    background-color: #8CBC00;
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 0.625rem;
+    transition: background-color .3s ease-out;
 }
 
-.price {
+.product-text a:hover {
+    background-color: #769C02;
+}
+
+.product-text .price {
     font-size: 1.75rem;
     font-weight: 900;
+}
+
+.product img:hover {
+    transform: scale(1);
 }
