@@ -1,0 +1,31 @@
+
+
+.form-contact {
+    max-width: 37.5rem;
+    margin: 0 auto;
+}
+
+.form-contact fieldset {
+    border: 1px solid #000000;
+    margin-bottom: 1.25rem;
+}
+
+.form-contact legend {
+    background-color: #005485;
+    color: #FFFFFF;
+    font-weight: 900;
+    padding: 0.625rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.field {
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+
+.field label {
+    flex-basis: 6.25rem;
+}
