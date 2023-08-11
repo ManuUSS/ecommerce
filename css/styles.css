@@ -40,9 +40,32 @@ img {
     margin: 0 auto;
 }
 
+.btn {
+    background-color: #8CBC00;
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    padding: 0.625rem;
+    transition: background-color .3s ease-out;
+}
+
+.btn:hover {
+    background-color: #769C02;
+}
+
 /* Utilities */
 .text-center {
     text-align: center;
+}
+
+.max-width-30 {
+    max-width: 18.75rem;
+}
+
+.in-line {
+    display: inline;
 }
 
 /* Header and navigation */
