@@ -219,3 +219,10 @@ img {
 .product img:hover {
     transform: scale(1);
 }
+
+/* Footer */
+.site-footer {
+    border-top: 1px solid #e1e1e1;
+    margin-top: 3.125rem;
+    padding-top: 3.125rem;
+}
