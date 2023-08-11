@@ -1,0 +1,13 @@
+
+
+.content-us {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 15.625rem, 1fr ));
+    column-gap: 2.5rem;
+}
+
+.info-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
