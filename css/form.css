@@ -3,6 +3,8 @@
 .form-contact {
     max-width: 37.5rem;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-contact fieldset {
@@ -28,4 +30,12 @@
 
 .field label {
     flex-basis: 6.25rem;
+}
+
+.field input:not([type="radio"]),
+.field select,
+.field textarea {
+    flex-grow: 1;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
 }

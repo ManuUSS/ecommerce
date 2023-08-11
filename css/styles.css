@@ -49,15 +49,21 @@ img {
     font-weight: 900;
     padding: 0.625rem;
     transition: background-color .3s ease-out;
+    border: none;
 }
 
 .btn:hover {
     background-color: #769C02;
+    cursor: pointer;
 }
 
 /* Utilities */
 .text-center {
     text-align: center;
+}
+
+.align-end {
+    align-self: flex-end;
 }
 
 .max-width-30 {
