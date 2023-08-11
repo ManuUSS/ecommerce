@@ -30,28 +30,28 @@
     <main class="content-main container">
         <h2 class="text-center">Contacto</h2>
         
-        <form action="">
+        <form>
             <fieldset>
                 <legend>Tus datos personales</legend>
 
                 <div class="field">
                     <label for="name">Nombre:</label>
-                    <input id="name" type="text" placeholder="Tu nombre">
+                    <input id="name" type="text" placeholder="Tu nombre" required>
                 </div>
 
                 <div class="field">
                     <label for="affair">Asunto:</label>
-                    <input id="affair" type="text" placeholder="Tu asunto">
+                    <input id="affair" type="text" placeholder="Tu asunto" required>
                 </div>
 
                 <div class="field">
                     <label for="email">Email:</label>
-                    <input id="email" type="tel" placeholder="Tu email">
+                    <input id="email" type="tel" placeholder="Tu email" required>
                 </div>
 
                 <div class="field">
                     <label for="phone">Teléfono:</label>
-                    <input id="phone" type="tel" placeholder="Tu teléfono">
+                    <input id="phone" type="tel" placeholder="Tu teléfono" required>
                 </div>
 
                 <div class="field">
@@ -85,17 +85,18 @@
                     <input type="radio" id="provider" name="type" value="provider">
                 </div>
                 <div class="field">
-                        <label for="category">Categoría de interés</label>
-                        <input list="categories" name="category">
-                        <datalist id="categories">
-                            <option value="Cocina">
-                            <option value="Exterior">
-                            <option value="Recamaras">
-                            <option value="Oficina">
-                            <option value="Patio">
-                        </datalist>
+                    <label for="category">Categoría de interés</label>
+                    <input list="categories" name="category">
+                    <datalist id="categories">
+                        <option value="Cocina">
+                        <option value="Exterior">
+                        <option value="Recamaras">
+                        <option value="Oficina">
+                        <option value="Patio">
+                    </datalist>
                 </div>
             </fieldset>
+            <input type="submit" value="Enviar formulario">
         </form>
     </main>
 
