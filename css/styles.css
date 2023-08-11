@@ -227,11 +227,21 @@ img {
     padding-top: 3.125rem;
 }
 
+.site-footer h3 {
+    margin-bottom: 0.3125rem;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 3.125rem;
+}
+
 .grid-footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.grid-footer article {
-    flex: 1;
+.footer-nav a {
+    display: block;
+
 }
