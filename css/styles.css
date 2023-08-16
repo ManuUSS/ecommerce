@@ -135,11 +135,24 @@ img {
 }
 /* Categories */
 .categories {
-    padding-top: 3.125rem;
+    padding-top: 3.125rem 0;
 }
 
 .categories h2 {
     text-align: center;
+}
+
+.category {
+    margin-bottom: 1.25rem;
+}
+@media ( min-width: 768px ) {
+    .category {
+        margin-bottom: 0;
+    }
+}
+
+.category img {
+    width: 100%;
 }
 
 .category a {
@@ -155,11 +168,13 @@ img {
     color: #ffffff;
 }
 
-.category-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.25rem;
-    margin-bottom: 3.125rem;
+@media ( min-width: 768px ) {
+    .category-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.25rem;
+        margin-bottom: 3.125rem;
+    }
 }
 
 /* About us */
