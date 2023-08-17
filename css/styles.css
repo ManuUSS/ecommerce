@@ -14,7 +14,7 @@ body {
 /* Global styles */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
-    margin: 0 0 3.125rem 0;
+    margin: 0 0 1.25rem 0;
 }
 
 h1 {
@@ -178,24 +178,48 @@ img {
 }
 
 /* About us */
+
 .about-us {
-    background-image: linear-gradient( to right, transparent 50%, #037BC0 50%, #037BC0 100% ),
+    background-image: linear-gradient( to bottom, transparent 50%, #037BC0 50%, #037BC0 100% ),
     url("../images/nosotros.jpg");
     background-repeat: no-repeat;
-    background-size: 100%, 75rem;
-    background-position: left center;
-    padding: 6.25rem 0;
+    background-size: 100%, 43.75rem;
+    background-position: center, top left;
+}
+
+@media ( min-width: 768px ) {
+    .about-us {
+        background-image: linear-gradient( to right, transparent 50%, #037BC0 50%, #037BC0 100% ),
+        url("../images/nosotros.jpg");
+        background-size: 100%, 100rem;
+        background-position: left center;
+        padding: 6.25rem 0;
+    }
 }
 
 .about-us-grid {
-    display: flex;
-    justify-content: flex-end;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+@media ( min-width: 768px ) {
+    .about-us-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: unset;
+        column-gap: 5rem;
+    }
 }
 
 .about-us-text {
-    flex-basis: 50%;
-    padding-left: 5rem;
+    grid-row: 2/3;
     color: #ffffff;
+    padding: 3.125rem;
+}
+
+@media ( min-width: 768px ) {
+    .about-us-text {
+        grid-column: 2/3;
+    }
 }
 
 /* Products list */
