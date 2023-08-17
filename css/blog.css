@@ -1,9 +1,10 @@
 
-
-.blog-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 2.5rem;
+@media ( min-width: 768px ) {
+    .blog-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 2.5rem;
+    }
 }
 
 .blog {
@@ -19,7 +20,17 @@
 
 .entry {
     border-bottom: 2px solid #e1e1e1;
+    margin-bottom: 1.25rem;
     padding-bottom: 2.5rem;
+}
+
+.entry h2 {
+    text-align: center;
+}
+@media ( min-width: 768px ) {
+    .entry h2 {
+        text-align: left;
+    }
 }
 
 .entry:last-child {
@@ -27,9 +38,15 @@
     border: none;
 }
 
-.meta-entry {
-    display: flex;
-    justify-content: space-between;
+.blog-content {
+    padding: 2rem;
+}
+
+@media ( min-width: 768px ) {
+    .meta-entry {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .meta-entry p {

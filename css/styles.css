@@ -85,9 +85,12 @@ img {
     align-self: flex-end;
 }
 
-.max-width-30 {
-    max-width: 18.75rem;
+@media ( min-width: 768px ) {
+    .max-width-30 {
+        max-width: 18.75rem;
+    }
 }
+
 
 .in-line {
     display: inline;
